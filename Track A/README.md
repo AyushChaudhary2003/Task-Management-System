@@ -32,15 +32,19 @@ A production-ready, ultra-minimalist Task Management System built with a high-pe
   <img src="screenshots/signin.png" width="45%" alt="Sign In" />
   <img src="screenshots/register.png" width="45%" alt="Register" />
 </p>
+<p align="center"><i>Ultra-minimalist authentication pages featuring real-time Gmail validation and secure session management.</i></p>
 
 ### 📊 Dashboard & Tasks
 <p align="center">
   <img src="screenshots/dashboard.png" width="91%" alt="Dashboard" />
 </p>
+<p align="center"><i>The "Deep Dark" Task Dashboard provides a centralized view for all activities with real-time status tracking and search.</i></p>
+
 <p align="center">
   <img src="screenshots/create-task.png" width="45%" alt="Create Task" />
   <img src="screenshots/task-added.png" width="45%" alt="Task Added" />
 </p>
+<p align="center"><i>Seamlessly create tasks with customized priorities and receive instant toast feedback upon successful completion.</i></p>
 
 ## 🏗️ Architecture Overview
 
