@@ -39,21 +39,18 @@ A comprehensive, full-stack Task Management System demonstration featuring a Flu
 
 Here is a look at the beautiful, premium interface of the mobile application:
 
-<p align="center">
-  <img src="screenshots/login.jpg" width="24%" />
-  &nbsp;
-  <img src="screenshots/register.jpg" width="24%" />
-  &nbsp;
-  <img src="screenshots/dashboard.jpg" width="24%" />
-  <br/><br/>
-  <img src="screenshots/create_task.jpg" width="24%" />
-  &nbsp;
-  <img src="screenshots/dashboard_populated.jpg" width="24%" />
-  &nbsp;
-  <img src="screenshots/status_change.jpg" width="24%" />
-</p>
-
-*Images (top left to bottom right): Login, Registration, Before Task Added, Task Creation, Populated Dashboard, Task Status Interaction.*
+<table align="center">
+  <tr>
+    <td align="center"><img src="screenshots/login.jpg" width="100%" /><br/><i>Login</i></td>
+    <td align="center"><img src="screenshots/register.jpg" width="100%" /><br/><i>Registration</i></td>
+    <td align="center"><img src="screenshots/dashboard.jpg" width="100%" /><br/><i>Before Task Added</i></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/create_task.jpg" width="100%" /><br/><i>Task Creation</i></td>
+    <td align="center"><img src="screenshots/dashboard_populated.jpg" width="100%" /><br/><i>Populated Dashboard</i></td>
+    <td align="center"><img src="screenshots/status_change.jpg" width="100%" /><br/><i>Task Status Interaction</i></td>
+  </tr>
+</table>
 
 ---
 
