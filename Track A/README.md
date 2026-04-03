@@ -25,6 +25,27 @@ A production-ready, ultra-minimalist Task Management System built with a high-pe
 - **Toast Notifications**: Interactive feedback for all system actions (Creation, Deletion, Errors).
 - **Mobile Responsive**: Fully adaptive layout that reorganizes control bars for mobile viewports.
 
+## 🏗️ Architecture Overview
+
+The system follows a modern decoupled architecture, ensuring clean separation of concerns and high scalability:
+
+### 📱 Frontend (Next.js)
+- **Framework**: Next.js (App Router) for hybrid rendering (SSR/CSR) and optimized delivery.
+- **State & Logic**: Custom React Hooks for data fetching and Axios interceptors for automated JWT token navigation.
+- **Security**: Local-first authentication management with automated silent refresh on 401 Unauthorized responses.
+- **Styling**: Vanilla CSS3 custom variables for a high-performance "Deep Dark" design system without third-party styling overhead.
+
+### ⚙️ Backend (Node.js/Express)
+- **Environment**: TypeScript-native environment for backend safety and predictability.
+- **Security Layer**: Bcrypt password hashing and double-token JWT (Access/Refresh) strategy for persistent, secure sessions.
+- **Validation**: Zod-based request validation ensuring all incoming data (like Gmail enforcement) is sanitized and correct.
+- **Error Handling**: Centralized middleware for consistent API responses across all endpoints.
+
+### 🗄️ Database Layer
+- **ORM**: Prisma ORM for type-safe database queries and migration management.
+- **Engine**: SQLite for zero-config persistence, making it exceptionally easy for the review panel to run locally without infrastructure overhead.
+- **Schema**: Relational model connecting Users, Tasks, and Refresh Token metadata with cascading deletion support.
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js (App Router), TypeScript, Lucide React, Vanilla CSS3 (Custom Variables).
