@@ -53,7 +53,7 @@ Here is a look at the beautiful, premium interface of the mobile application:
   <img src="screenshots/status_change.png" width="24%" />
 </p>
 
-*Images (top left to bottom right): Login, Registration, Empty Dashboard, Task Creation, Populated Dashboard, Task Status Interaction.*
+*Images (top left to bottom right): Login, Registration, Before Task Added, Task Creation, Populated Dashboard, Task Status Interaction.*
 
 ---
 
