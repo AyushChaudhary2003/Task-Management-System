@@ -25,6 +25,23 @@ A production-ready, ultra-minimalist Task Management System built with a high-pe
 - **Toast Notifications**: Interactive feedback for all system actions (Creation, Deletion, Errors).
 - **Mobile Responsive**: Fully adaptive layout that reorganizes control bars for mobile viewports.
 
+## 📸 Visual Walkthrough
+
+### 👤 Authentication
+<p align="center">
+  <img src="screenshots/signin.png" width="45%" alt="Sign In" />
+  <img src="screenshots/register.png" width="45%" alt="Register" />
+</p>
+
+### 📊 Dashboard & Tasks
+<p align="center">
+  <img src="screenshots/dashboard.png" width="91%" alt="Dashboard" />
+</p>
+<p align="center">
+  <img src="screenshots/create-task.png" width="45%" alt="Create Task" />
+  <img src="screenshots/task-added.png" width="45%" alt="Task Added" />
+</p>
+
 ## 🏗️ Architecture Overview
 
 The system follows a modern decoupled architecture, ensuring clean separation of concerns and high scalability:
